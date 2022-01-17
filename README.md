@@ -55,10 +55,10 @@ ssh-add ~/.ssh/id_ed25519
 git clone git@github.com:tobkin/learning-brownie-framework.git
 ```
 
-### Install Brownie globally
-3a. Install pip
+### Install Brownie and related prerequisites globally
+3a. Install pip and npm
 ```
-sudo apt-get install pip
+sudo apt-get install pip npm
 ```
 
 3b. Install brownie globally via pipx, plus hiccups I found on the way: https://github.com/eth-brownie/brownie. There are other installation options that may be preferrable for less casual situations, but I did not use these installation options.
@@ -67,4 +67,6 @@ python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 sudo apt install python3.8-venv
 pipx install eth-brownie
+
+sudo npm install ganache-cli
 ```
