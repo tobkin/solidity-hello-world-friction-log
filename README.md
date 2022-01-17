@@ -5,7 +5,7 @@ I've been curious to education myself on Web3 and Crypto, so I'm setting up a de
 ## Motivation
 - [Reddit: What is your experience being a professional blockchain engineer? Is it worth it?](https://www.reddit.com/r/ethdev/comments/s66a3x/what_is_your_experience_being_a_professional/)
 
-## How I decided to use Brownie
+## How I decided to use Brownie first over Hardhat and Truffle
 - I like Python more than Javascript, and Brownie is a Python-based framework
 - r/ethdev seems to dislike Truffle, so I avoided it for now
 - [Reddit: Brownie vs Hardhat vs Truffle?](https://www.reddit.com/r/ethdev/comments/rkw5nq/brownie_vs_hardhat_vs_truffle/)
