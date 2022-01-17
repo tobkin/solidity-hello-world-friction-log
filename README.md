@@ -61,7 +61,7 @@ git clone git@github.com:tobkin/learning-brownie-framework.git
 sudo apt-get install pip npm
 ```
 
-3b. Install brownie globally via pipx, plus hiccups I found on the way: https://github.com/eth-brownie/brownie. There are other installation options that may be preferrable for less casual situations, but I did not use these installation options.
+3b. Install Brownie and prerequisites for using Brownie. There are other install options besides this one that may be more suitable for production environments.
 ```
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
