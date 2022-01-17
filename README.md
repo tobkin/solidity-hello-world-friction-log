@@ -14,3 +14,15 @@ sudo apt update
 
 sudo apt install brave-browser
 ```
+3. Install pip
+```
+sudo apt-get install pip
+```
+4. Install brownie globally via pipx, plus hiccups I found on the way: https://github.com/eth-brownie/brownie. There are other installation options that may be preferrable for less casual situations, but I did not use these installation options.
+```
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+sudo apt install python3.8-venv
+pipx install eth-brownie
+
+```
