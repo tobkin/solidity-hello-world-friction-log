@@ -28,6 +28,10 @@ sudo apt update
 sudo apt install brave-browser
 ```
 
+1c. [Install VSCode to use as IDE](git@github.com:tobkin/learning-brownie-framework.git)
+
+1d. [Install Solidity extension for VSCode to enable syntax highlighting](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
+
 ### Configure git and Github
 2a. Install and configure git
 ```
