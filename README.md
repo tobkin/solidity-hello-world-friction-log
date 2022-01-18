@@ -1,6 +1,7 @@
-# learning-brownie-framework
+# Solidity "Hello World" setup log: Jan 17 2022
 
-I've been curious to education myself on Web3 and Crypto, so I'm setting up a development environment to do some hacking on Ethereum. I'll see where open-minded hacking takes me.
+
+I was blockchain-curious today, so I setup a development environment to do some hacking on Ethereum. While most tutorials I encountered recommended using Remix, a zero-setup IDE, I find I understand new technology better if I must assemble the development toolchain myself. This README.md outlines how I was able to go from a blank Ubuntu 20.04 LTS VM to compiling and running a "hello world" Solidity contract on Jan 17 2022. Perhaps you will find it a useful exercise too.
 
 ## Motivation
 - [Reddit: What is your experience being a professional blockchain engineer? Is it worth it?](https://www.reddit.com/r/ethdev/comments/s66a3x/what_is_your_experience_being_a_professional/)
@@ -15,23 +16,13 @@ I've been curious to education myself on Web3 and Crypto, so I'm setting up a de
 ### 1. VM Setup
 1a. Download and install Ubuntu 20.04 LTS to use as a base for our development environment
 
-1b. Download and install Brave Browswer because it's not Firefox:
-```
-$ sudo apt install apt-transport-https curl
-$ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-$ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-$ sudo apt update
-$ sudo apt install brave-browser
-```
+1b. [Install VSCode to use as IDE](git@github.com:tobkin/learning-brownie-framework.git)
 
-1c. [Install VSCode to use as IDE](git@github.com:tobkin/learning-brownie-framework.git)
-
-1d. [Install Solidity extension for VSCode to enable syntax highlighting](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
+1c. [Install Solidity extension for VSCode to enable syntax highlighting](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
 
 ### 2. Configure git and Github
 2a. Install and configure git
 ```
-# install and configure git
 $ sudo apt-get install git
 $ git config --global user.name "Toby Tobkin"
 $ git config --global user.email "tobkin@hey.com"
@@ -77,3 +68,6 @@ $ brownie console
 'Hello World!'
 
 ```
+
+### 5. Congrats you made it
+More exercises past hello world I found useful: https://solidity-by-example.org/
