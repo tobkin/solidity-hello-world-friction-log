@@ -6,9 +6,9 @@ I was blockchain-curious today, so I setup a development environment to do some 
 ## Motivation
 - [Reddit: What is your experience being a professional blockchain engineer? Is it worth it?](https://www.reddit.com/r/ethdev/comments/s66a3x/what_is_your_experience_being_a_professional/)
 
-## How I decided to use Brownie first over Hardhat and Truffle
+## How I decided to use Brownie first over Hardhat, Truffle, or "roll-your-own" development tooling
 - I like Python more than Javascript, and Brownie is a Python-based framework
-- r/ethdev seems to dislike Truffle, so I avoided it for now
+- r/ethdev seems to have feelings about Truffle, so I deprioritized learning it for now assuming wisdom of crowd
 - [Reddit: Brownie vs Hardhat vs Truffle?](https://www.reddit.com/r/ethdev/comments/rkw5nq/brownie_vs_hardhat_vs_truffle/)
 
 ## Environment setup
@@ -16,7 +16,7 @@ I was blockchain-curious today, so I setup a development environment to do some 
 ### 1. VM Setup
 1a. Download and install Ubuntu 20.04 LTS to use as a base for our development environment
 
-1b. [Install VSCode to use as IDE](git@github.com:tobkin/learning-brownie-framework.git)
+1b. Install VSCode to use as IDE. Or whatever text editor you prefer.
 
 1c. [Install Solidity extension for VSCode to enable syntax highlighting](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
 
@@ -40,6 +40,7 @@ $ ssh-add ~/.ssh/id_ed25519
 2d. Clone this repo:
 ```
 $ git clone git@github.com:tobkin/learning-brownie-framework.git
+$ cd ./learning-brownie-framework
 ```
 
 ### 3. Install Brownie and related prerequisites globally
