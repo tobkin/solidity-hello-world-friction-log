@@ -1,4 +1,4 @@
-# Solidity "Hello World" setup log: Jan 17 2022
+# Solidity "Hello World" getting started friction log: Jan 17 2022
 
 
 I was blockchain-curious today, so I setup a development environment to do some hacking on Ethereum. While most tutorials I encountered recommended using Remix, a zero-setup IDE, I find I understand new technology better if I must assemble the development toolchain myself. This README.md outlines how I was able to go from a blank Ubuntu 20.04 LTS VM to compiling and running a "hello world" Solidity contract on Jan 17 2022. Perhaps you will find it a useful exercise too.
